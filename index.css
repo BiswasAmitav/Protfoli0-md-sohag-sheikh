@@ -1,0 +1,27 @@
+h2{
+    font-size: 50px;;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-flow: row-wrap;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: green;
+}
+section div{
+    background-color:rgb(255, 255, 255);
+    width: 500px;
+    height:auto;
+    padding: 20px;
+    margin: 10px; 
+    flex-grow: 1;
+}
+.name-heihglight {
+    color: orange;
+}
+
